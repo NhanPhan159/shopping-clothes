@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html{
+    padding: 0 4rem;
+  }
+  label{
+    @apply text-sm font-semibold mb-1 block;
+  }
+  input{
+    border: solid 1px slategray !important;
+  }
+}
+@layer utilities{
+  .ant-select-selector{
+    border: solid 1px slategray !important;
+  }
+}
